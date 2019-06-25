@@ -49,7 +49,7 @@ const Constrained = () => {
           <h5 className="featured__title">Picture of some things</h5>
           <div className="featured__things">
             <div className="featured__picture">
-              <img src={thingsPhoto} />
+              <img src={thingsPhoto} alt="Thing 1 and thing 2" />
             </div>
             <p>
               These guys are pretty coo’. Thing one and thing 2. You'll like

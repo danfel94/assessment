@@ -4,7 +4,7 @@
   width: 100vw;
   background-color: #1a9dc5;
 }
-.gallery__cardList {
+.gallery__details {
   background-color: #137593;
   border-radius: 5px;
   padding: 3.5vh 1vw;
@@ -14,10 +14,37 @@
   margin-right: auto;
   color: white;
 }
+.gallery__title{
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.gallery__info{
+  font-size: 65%;
+  font-weight: 100;
+  margin: 1.5vh 0 1.5vh 0;
+  color: #B6D3DD;
+}
+.gallery__info a:link,
+.gallery__info a:visited{
+  color: #B6D3DD;
+  }
 
 .gallery__filters {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
   font-size: 0.7rem;
+  color: #B6D3DD;
+  margin-bottom: .5vh;
+}
+.gallery__filters input{
+  margin: 0 .3vw;
+}
+
+.gallery__cardList {
+  /* height: 36vh; */
+  height: 71%;
+  display: flex;
+  justify-content: space-between;
+  color: #137593;
 }

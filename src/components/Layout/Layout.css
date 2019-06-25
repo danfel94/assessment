@@ -1,6 +1,6 @@
 .layout {
   width: 100vw;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 .line--colored {
   background-color: #626160;
