@@ -6,9 +6,12 @@
   width: 44vw;
   background-color: #ffffff;
   color: #4f97ad;
-  font-size: 80%;
+  font-size: 75%;
   padding: 2vh 2vw;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
 }
+
 .constrained__container p {
   font-size: 85%;
   padding-top: 0.5vh;
@@ -21,10 +24,15 @@
 .featured__title {
   color: #137593;
   padding: 1vh 0 1vh 0;
+  font-size: 100%;
+}
+.constrained__container h3 {
+  font-size: 115%;
 }
 .featured__item {
   width: 33%;
   border-top: 1.1px solid #c1e5f0;
+  font-size: 95%;
 }
 .featured__item:not(:last-child) {
   margin-right: 1.5vw;

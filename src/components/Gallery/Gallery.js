@@ -27,7 +27,7 @@ const Gallery = () => {
   return (
     <section className="gallery__container">
       <div className="gallery__details">
-        <h5 className="gallery__title">These are cards!</h5>
+        <h5 className="gallery__title">These are cards</h5>
         <p className="gallery__info">
           These cards are cool & tell you things about animals! Did you know a
           bird can run up to 65mph? And a cat can jump 26 feet in the air to

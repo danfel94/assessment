@@ -15,10 +15,13 @@
   color: white;
 }
 .gallery__title {
-  font-weight: 500;
-  letter-spacing: 1px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 87.5%;
 }
 .gallery__info {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
   font-size: 64%;
   margin: 1.5vh 0 1.5vh 0;
   color: #b6d3dd;
@@ -29,10 +32,12 @@
 }
 
 .gallery__filters {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  font-size: 0.7rem;
+  font-size: 0.65rem;
   color: #b6d3dd;
   margin-bottom: 0.5vh;
 }
