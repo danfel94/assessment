@@ -1,0 +1,9 @@
+.layout {
+  width: 100vw;
+  overflow-x: hidden;
+}
+.line--colored {
+  background-color: #626160;
+  height: 1.5px;
+  width: 100vw;
+}

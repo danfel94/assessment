@@ -1,0 +1,11 @@
+.banner__container {
+  background-color: #ffffff;
+  height: 28vh;
+  width: 100vw;
+  border-bottom: 2.5px solid #c0c0c0;
+  /* padding: 8.4vh 0 4.2vh 0; */
+  /* margin-left: 17vw; */
+  /* box-shadow: inset -5px -5px 5px -5px #5ff48e; */
+  /* maybe the above box shadow stuff isn't even really a big deal.
+  leave as border for now and if extra time, work on that. */
+}

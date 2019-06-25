@@ -1,0 +1,23 @@
+.gallery__container {
+  padding-top: 4.2vh;
+  height: 67.1vh;
+  width: 100vw;
+  background-color: #1a9dc5;
+}
+.gallery__cardList {
+  background-color: #137593;
+  border-radius: 5px;
+  padding: 3.5vh 1vw;
+  width: 66.66vw;
+  height: 58.5vh;
+  margin-left: 16vw;
+  margin-right: auto;
+  color: white;
+}
+
+.gallery__filters {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-size: 0.7rem;
+}

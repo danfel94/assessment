@@ -1,0 +1,5 @@
+.example__container {
+  border-top: 1.5px solid #1e718a;
+  /* height: 64.75vh; */
+  height: fit-content;
+}

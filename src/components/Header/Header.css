@@ -1,0 +1,30 @@
+.header__container {
+  background-color: #147694;
+  width: 100vw;
+  height: 7.25vh;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #373738;
+  border-bottom: 2.5px solid #0f576e;
+  color: white;
+}
+
+.header__title {
+  margin-left: 17vw;
+  display: flex;
+  align-items: center;
+}
+.header__nav {
+  display: flex;
+  margin-right: 18.5vw;
+  font-size: 0.7rem;
+  align-items: center;
+}
+.nav__list {
+  display: flex;
+
+  list-style: none;
+}
+.nav__list--item {
+  padding: 0 0.5rem 0 0.5rem;
+}
