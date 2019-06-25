@@ -26,5 +26,16 @@
   list-style: none;
 }
 .nav__list--item {
-  padding: 0 0.5rem 0 0.5rem;
+  padding: 0.55rem 0.5rem;
+  display: flex;
+  align-items: center;
 }
+.nav__list--item:hover {
+  background-color: #0e586e;
+  padding-right: 0.8rem;
+}
+/* .nav__list--item:hover::after {
+  content: '&or;';
+
+  color: #ffffff;
+} */

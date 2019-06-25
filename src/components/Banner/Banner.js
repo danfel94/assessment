@@ -3,10 +3,13 @@ import './Banner.css';
 
 const Banner = () => {
   return (
-    <div className="banner__container">
-      <h1>Welcome to my example page</h1>
-      <h3>This is our new assessment</h3>
-    </div>
+    <section className="banner__container">
+      <div className="banner__welcome">
+        <h1 className="banner__title">Welcome to my example page</h1>
+        <h3 className="banner__subtitle">This is our new assessment</h3>
+      </div>
+      <div className="banner__img" />
+    </section>
   );
 };
 

@@ -14,31 +14,30 @@
   margin-right: auto;
   color: white;
 }
-.gallery__title{
+.gallery__title {
   font-weight: 500;
   letter-spacing: 1px;
 }
-.gallery__info{
-  font-size: 65%;
-  font-weight: 100;
+.gallery__info {
+  font-size: 64%;
   margin: 1.5vh 0 1.5vh 0;
-  color: #B6D3DD;
+  color: #b6d3dd;
 }
 .gallery__info a:link,
-.gallery__info a:visited{
-  color: #B6D3DD;
-  }
+.gallery__info a:visited {
+  color: #b6d3dd;
+}
 
 .gallery__filters {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
   font-size: 0.7rem;
-  color: #B6D3DD;
-  margin-bottom: .5vh;
+  color: #b6d3dd;
+  margin-bottom: 0.5vh;
 }
-.gallery__filters input{
-  margin: 0 .3vw;
+.gallery__filters input {
+  margin: 0 0.3vw;
 }
 
 .gallery__cardList {
