@@ -51,7 +51,7 @@
   display: flex;
   align-items: center;
   padding-top: 15%;
-  margin-top: 3.5rem;
+  margin-top: 9.5vh;
 }
 .item1__menu {
   z-index: 15;
@@ -78,4 +78,37 @@
 }
 .nav__list--item:hover {
   background-color: #0e586e;
+}
+
+@media screen and (max-width: 32rem) {
+  .header__container {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .nav__list--item.menu {
+    padding-top: 0;
+    margin-top: 0;
+  }
+  .nav__list--item.menu span {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .header__nav {
+    margin: 0;
+    flex-direction: row;
+    align-items: center;
+  }
+  .nav__list {
+    margin-top: -1vh;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: auto;
+  }
+  .header__title {
+    margin-left: 0vw;
+  }
+  .header__subtitle .header__nav {
+    margin-right: 0vw;
+  }
 }

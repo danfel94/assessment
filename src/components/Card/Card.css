@@ -26,6 +26,7 @@
   text-align: center;
   margin: 1vh 0.3vw 0.5vh;
   height: calc(40% - 1.5vh);
+  width: 90%;
 }
 .card__title {
   margin-bottom: 1vh;
@@ -43,4 +44,16 @@
   text-decoration: none;
   display: flex;
   justify-content: center;
+}
+
+@media screen and (max-width: 50rem) {
+  .card__container {
+    margin: 1vw;
+    min-width: 45%;
+  }
+}
+@media screen and (max-width: 32rem) {
+  .card__container {
+    min-width: 80%;
+  }
 }

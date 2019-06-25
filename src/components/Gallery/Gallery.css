@@ -52,3 +52,32 @@
   justify-content: space-between;
   color: #137593;
 }
+
+@media screen and (max-width: 50rem) {
+  .gallery__container {
+    height: fit-content;
+    padding-bottom: 3vh;
+  }
+  .gallery__details {
+    margin-left: 5vw;
+    margin-right: auto;
+    width: 90%;
+    min-height: fit-content;
+  }
+  .gallery__cardList {
+    min-height: fit-content;
+    flex-flow: wrap;
+    justify-content: space-around;
+  }
+  .gallery__info,
+  .gallery__title,
+  .gallery__filters {
+    padding: 1vh;
+  }
+}
+@media screen and (max-width: 32rem) {
+  .gallery__cardList {
+    flex-flow: column;
+    align-items: center;
+  }
+}

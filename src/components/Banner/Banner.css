@@ -36,3 +36,37 @@
   background: center/cover no-repeat url('../../assets/random-mountain-pic.jpg');
   background-size: 230%;
 }
+
+@media screen and (max-width: 60rem) {
+  .banner__img {
+    height: 25vh;
+  }
+}
+
+@media screen and (max-width: 44rem) {
+  .banner__img {
+    /* margin-left: 0vw; */
+    height: 20vh;
+  }
+}
+
+@media screen and (max-width: 35rem) {
+  .banner__container {
+    height: 50vh;
+  }
+  .banner__img {
+    margin-left: 0vw;
+    height: 33vh;
+    width: 100vw;
+  }
+  .banner__welcome {
+    padding: 5vh 0;
+  }
+  .banner__title {
+    text-align: center;
+  }
+  .banner__subtitle {
+    padding-top: 15vh;
+    text-align: center;
+  }
+}

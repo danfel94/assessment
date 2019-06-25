@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   margin: 0 auto 0 auto;
-  height: 60vh;
+  min-height: 60vh;
   width: 44vw;
   background-color: #ffffff;
   color: #4f97ad;
@@ -41,7 +41,6 @@
   list-style: none;
 }
 .featured__picture {
-  /* width: 35%; */
   width: 50%;
 }
 .featured__picture img {
@@ -52,4 +51,18 @@
 }
 .featured__things p {
   width: 80%;
+}
+
+@media screen and (max-width: 50rem) {
+  .constrained__container {
+    width: 95%;
+  }
+  .constrained__featured {
+    flex-direction: column;
+    width: 90%;
+  }
+  .featured__item {
+    width: 100%;
+    margin-bottom: 1.5vh;
+  }
 }
