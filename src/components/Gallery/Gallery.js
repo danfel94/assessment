@@ -51,6 +51,7 @@ const Gallery = () => {
                 title={panel.title}
                 description={panel.description}
                 index={index + 1}
+                key={index}
               />
             );
           })}
